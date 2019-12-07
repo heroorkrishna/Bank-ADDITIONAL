@@ -54,7 +54,7 @@ bank.boxplot(column='duration', by='outcome')
 # looks like a useful feature
 bank.groupby('previous').outcome.mean()
 
-## 7.2 poucome
+## 7.2 poutcome
 # looks like a useful feature
 bank.groupby('poutcome').outcome.mean()
 
